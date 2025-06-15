@@ -1,11 +1,12 @@
 package com.example;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+package com.example;
 
-@SpringBootApplication
-public class CodeInspectionApplication {
-    public static void main(String[]args){
-        springApplication.run(CodeInspectionApplication.class, args);
+/**
+ * A simple console-based Hello World Java app
+ */
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello, Jenkins + SonarQube!");
     }
 }
