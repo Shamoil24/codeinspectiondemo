@@ -1,6 +1,5 @@
 package com.example;
 
-package com.example;
 
 /**
  * A simple console-based Hello World Java app
