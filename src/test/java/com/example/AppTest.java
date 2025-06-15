@@ -1,13 +1,15 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
-@SpringBootTest
-class CodeInspectionApplicationTests{
+/**
+ * Unit test for App class.
+ */
+public class AppTest {
 
     @Test
-    void context.Loads(){
-        
+    public void testApp() {
+        assertTrue(true);
     }
 }
